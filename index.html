@@ -1,9 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>hey</title>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		canvas{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-40%,-50%);
+			margin: 10px solid red;
+		}
+		h2{
+			margin: 15px 30px;
+			font-size: 160%;
+			color: blue;
+			font-family: sans-serif;
+		}
+		li,p{
+			margin: 10px 15px;
+			font-family: verdana;
+			color: green;
+		}
+	</style>
 </head>
 <body>
-	new file
+	<!--<h2> Controls </h2>
+	<ul>
+		<li>RIGHT ARROW: MOVE RIGHT</li>
+		<li>LEFT ARROW: MOVE LEFT</li>
+		<li>SPACEBAR: FIRE</li>
+	</ul>
+	<h2>Rules</h2>
+	<p>KILL ALL THE ENEMIES <br>TO WIN THE GAME </p>-->
+	<script src="phaser.min.js"></script>
+	<script src="main.js"></script>
 </body>
 </html>
